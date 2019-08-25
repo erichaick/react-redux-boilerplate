@@ -1,7 +1,8 @@
 import React from "react";
+import Todo from "../Todo";
 
 function App() {
-  return <div>My react redux boilerplate</div>;
+  return <Todo />;
 }
 
 export default App;

@@ -5,7 +5,7 @@ import { Route, Switch } from "react-router";
 import { ConnectedRouter } from "connected-react-router";
 import configureStore, { history } from "./configureStore";
 import * as serviceWorker from "./serviceWorker";
-import App from "./App";
+import App from "./App/";
 
 const store = configureStore(/* provide initial state if any */);
 
